@@ -65,9 +65,6 @@ The recommendation model is summarized in the `content_based_recsys.ipynb` noteb
 Please follow the instruction in the notebook to produce the result.
 
 ### Deployment
-
-In order to access the final version of the app, please visit the following link: [nazaryaremko1.pythonanywhere.com](nazaryaremko1.pythonanywhere.com)
-A demo version of the website can be accessed and tested out there. Due to the limitations of file sizes that can be uploaded to pythonanywhere, it the model there is trained only on a subset of the data. To test the full functionality of the model, please, download the repository data, cd into the folder and run the following commands:
 ```sh
 cd recommendation_app
 python wsgi.py
@@ -88,21 +85,7 @@ pip3 install -r requirements.txt
 ```
 │
 ├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── raw            <- The original, immutable data dump.
-│   ├── processed      <- The preprocessed data sets for training.
-│   ├── test           <- The test data sets for testing.
-│   └── final          <- The final data sets for modeling.
-│
-├── models             <- Trained models, model predictions, or model summaries.
-│
-├── notebooks          <- Serialized Jupyter notebooks created in the project.
-│   ├── script         <- Script for data extraction and loading data
-│   ├── Extraction     <- Data extraction using Spotify API
-│   ├── EDA            <- Exploratory data analysis process.
-│   └── Recsys         <- The training of traditional statistical models.
-│
-├── recommendation_app <- Model deployment folder
+├── 
 │   ├── application    <- Code for model deployment and website design
 │   ├── data1          <- Pretrained data for model
 │   └── venv           <- Environment
